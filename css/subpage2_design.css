@@ -1,0 +1,209 @@
+body
+{
+	background-color: lightblue;
+	font-family: "Playfair Display"; 
+}
+#sizer
+{
+	margin-top: 25px;
+	margin-bottom: 25px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 1500px;
+}
+div
+{
+	background-color: white;
+	margin-left: 75px;
+	margin-right: 75px;
+}
+#title
+{
+	text-align: center;
+	font-size: 40px;
+}
+#title span
+{
+	color: red;
+}
+h2:nth-child(1)
+{
+	padding-top: 38px;
+}
+p
+{
+	text-align: justify;
+	font-size: 20px;
+}
+#img1
+{
+	float:right;
+	margin-left: 15px;
+	margin-bottom: 10px;
+}
+#img2
+{
+	float:left;
+	margin-right: 15px;
+	margin-bottom: 10px;
+}
+.imgfloat
+{
+	width: 50%;
+	height: 50%;
+}
+.navlink
+{
+	box-sizing: border-box;
+	display: inline-block;
+	width: 19.725%;
+	padding: 5px;
+	text-align: center;
+	border: 2px solid black;
+	text-decoration: none;
+}
+a:link
+{
+	color:black;
+	font-size: 17px;
+	opacity: 1;
+}
+a:visited
+{
+	color:black;
+	font-size: 17px;
+}
+a:hover
+{
+	color:black;
+	font-size: 17px;
+	opacity: 0.5;
+}
+a:active
+{
+	color:black;
+	font-size: 17px;
+	opacity: 0.5;
+}
+section 
+{
+	text-align: center;
+}
+.left
+{
+	text-align: left;
+}
+.center
+{
+	text-align: center;
+}
+.references
+{
+	font-size: 15px;
+}
+footer > a
+{
+	display: inline-block;
+	width: 33px;
+	height: 32px;
+	margin-right: 10px
+}
+.sprite 
+{
+	background: url('../images/Sprites 1.jpg') no-repeat -226px -129px;
+	width: 33px;
+	height: 32px;
+}
+.sprite:hover 
+{
+	background: url('../images/Sprites 1.jpg') no-repeat -226px -55px;
+	width: 33px;
+	height: 32px;
+}
+.sprite2 
+{
+	background: url('../images/Sprites 1.jpg') no-repeat -340px -129px;
+	width: 33px;
+	height: 32px;
+}
+.sprite2:hover 
+{
+	background: url('../images/Sprites 1.jpg') no-repeat -340px -54px;
+	width: 33px;
+	height: 32px;
+}
+.sprite3
+{
+	background: url('../images/Sprites 1.jpg') no-repeat -398px -129px;
+	width: 33px;
+	height: 32px;
+}
+.sprite3:hover 
+{
+	background: url('../images/Sprites 1.jpg') no-repeat -398px -54px;
+	width: 33px;
+	height: 32px;
+}
+
+.slider-frame
+{
+	overflow: hidden;
+	height: 400px;
+	width: 600px;
+	margin:auto;
+}
+@-webkit-keyframes slide_animation
+{
+	0% {left: 0px;}
+	10% {left: 0px;}
+	20% {left: 600px;}
+	30% {left: 600px;}
+	40% {left: 1200px;}
+	50% {left: 1200px;}
+	60% {left: 600px;}
+	70% {left: 600px;}
+	80% {left: 0px;}
+	90% {left: 0px;}
+	100% {left: 0px;}
+}
+.slide-images
+{
+	width: 1800px;
+	height: 400px;
+	margin: 0 0 0 -1200px;
+	position: relative;
+	-webkit-animation-name: slide_animation;
+	-webkit-animation-duration: 10s;
+	-webkit-animation-iteration-count: infinite;
+	-webkit-animation-direction: alternate;
+	-webkit-animation-play-state: running;
+}
+.img-container
+{
+	height: 400px;
+	width: 600px;
+	position: relative;
+	float: left;
+	margin:0;
+}
+.img-sizer
+{
+	width: 100%;
+	height: 100%;
+}
+div.img-container > a:link
+{
+	opacity: 1;
+}
+div.img-container > a:visited
+{
+	opacity: 1;
+}
+div.img-container > a:hover
+{
+	opacity: 0.8;
+}
+div.img-container > a:active
+{
+	opacity: 0.8;
+}
