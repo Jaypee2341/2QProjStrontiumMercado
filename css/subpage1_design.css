@@ -52,6 +52,16 @@ p
 	width: 40%;
 	height: 40%;
 }
+nav > a
+{
+	box-sizing: border-box;
+	display: inline-block;
+	width: 19.725%;
+	padding: 5px;
+	text-align: center;
+	border: 2px solid black;
+	text-decoration: none;
+}
 a:link
 {
 	color:black;
@@ -87,5 +97,46 @@ section
 {
 	font-size: 15px;
 }
-
-
+footer > a
+{
+	display: inline-block;
+	width: 33px;
+	height: 32px;
+	margin-right: 10px
+}
+.sprite 
+{
+	background: url('../images/Sprites 1.jpg') no-repeat -226px -129px;
+	width: 33px;
+	height: 32px;
+}
+.sprite:hover 
+{
+	background: url('../images/Sprites 1.jpg') no-repeat -226px -55px;
+	width: 33px;
+	height: 32px;
+}
+.sprite2 
+{
+	background: url('../images/Sprites 1.jpg') no-repeat -340px -129px;
+	width: 33px;
+	height: 32px;
+}
+.sprite2:hover 
+{
+	background: url('../images/Sprites 1.jpg') no-repeat -340px -54px;
+	width: 33px;
+	height: 32px;
+}
+.sprite3
+{
+	background: url('../images/Sprites 1.jpg') no-repeat -398px -129px;
+	width: 33px;
+	height: 32px;
+}
+.sprite3:hover 
+{
+	background: url('../images/Sprites 1.jpg') no-repeat -398px -54px;
+	width: 33px;
+	height: 32px;
+}
